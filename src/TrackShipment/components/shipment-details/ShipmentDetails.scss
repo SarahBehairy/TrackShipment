@@ -1,0 +1,52 @@
+.details{
+    margin-top: 2.5rem;
+    display: flex;
+
+}
+
+.detailsTable{
+    flex: 2;
+}
+
+.detailsCol{
+    border: 1px solid #d0d0d0;
+    border-radius: 7px;
+    padding: 0;
+}
+
+.tableHead{
+    background-color: #f8f8f8;
+    border-radius: 7px;
+}
+
+.tableRow{
+    padding: 15px 0;
+    align-items: flex-start !important;
+}
+
+.delivery-location{
+    padding: 25px 15px;
+    background: #f8f8f8;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    margin: 5px 7px;
+}
+
+.report-issue{
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    margin: 20px 7px;
+
+    p{
+        font-weight: bold;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 540px){
+    
+    .detailsTable{
+        margin-top: 25%;
+    }
+}

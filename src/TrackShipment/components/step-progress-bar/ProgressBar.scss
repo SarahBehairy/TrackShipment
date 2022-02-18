@@ -1,0 +1,51 @@
+.RSPBprogression .ar{
+    right: 0 !important;
+}
+
+.RSPBstep .ar{
+    right: 0 !important;
+}
+
+@media (max-width: 540px) {
+
+        .RSPBstep{
+            transform: rotate(-90deg) !important;
+        }
+
+        .progress-row{
+            transform: rotate(90deg) !important;
+            position: absolute;
+            left: 40%;
+            top: 35%;
+            margin-top: -2.5rem !important;
+        }
+
+        .wrapper{
+            width: 70% !important;
+            margin-left: 10px !important;
+        }
+
+        .state-desc{   
+            top: 0 !important;
+            right: 30px;
+            font-size: 10px !important;
+        }
+    
+    
+}
+
+.state-desc{
+    position: absolute;
+    top: 25px;
+    color: black;
+}
+
+.state-desc{
+    .wrap{
+        white-space: nowrap;
+    }
+}
+
+.time{
+    line-break: anywhere;
+}

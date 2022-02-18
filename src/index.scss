@@ -1,0 +1,24 @@
+
+@font-face {
+  font-family: 'Cairo';
+  src: local('Cairo'), url(./fonts/Cairo/Cairo-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Cairo';
+    font-weight: 900;
+    src: local('Cairo'), url(./fonts/Cairo/Cairo-Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Cairo'; 
+    font-weight: 900;
+    src: local('Cairo'), url(./fonts/Cairo/Cairo-Black.ttf) format('truetype');
+}
+
+*{
+  margin: 0;
+  font-family: Cairo;
+
+}
+  

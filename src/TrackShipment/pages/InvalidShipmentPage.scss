@@ -1,0 +1,29 @@
+.invalid_ship {
+    margin: 5rem 10px;
+    max-width: 600px;
+    width: 100%;
+    box-shadow: 0px 4px 8px #dedede;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 24px;
+    padding: 25px 18px;
+
+    h1 {
+        font-size: 18px;
+        
+    }
+}
+
+.delivey_form h2.head_pop {
+    font-size: 20px;
+}
+
+.delivey_form form.track_form {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.invalid-container{
+    display: flex;
+    justify-content: center;
+}

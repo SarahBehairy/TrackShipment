@@ -1,0 +1,232 @@
+.m-inline{
+    margin-inline-end: auto;
+}
+
+.nav-item{
+    font-weight: 600;
+    line-height: 23px;
+    color: #000000 !important;
+    font-size: 16px;
+    word-wrap: break-word;
+    padding-inline-start: 20px !important;
+    margin-top: 20px;
+}
+
+.nav-item:hover::before{
+    height: 3px;
+    width:70%;
+    background: red;
+    display: flex;
+    position: absolute;
+    top: 0;
+    content: "";
+}
+
+.navbar{
+    box-shadow: 0 0 7px rgba(0,0,0,.1)!important;
+}
+
+.lang{
+    font-size: 22px;
+    color: #ff0000 !important;
+    font-weight: 800;
+}
+
+.nav-link{
+    position: relative;
+}
+
+@media (max-width: 980px){
+    #mobileView{
+        display: block !important;
+    }
+
+    #webView{
+        display: none !important;
+    }
+
+    .details{
+        flex-direction: column;
+    }
+}
+
+#webView{
+    display: flex;
+    width: 80%;
+}
+
+#mobileView{
+    display: none;
+}
+
+.fa-bars{
+    font-size: 32px;
+    color: #ff0000;
+    cursor: pointer;
+}
+
+.mobile_menu{
+    list-style-type: none;
+}
+
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+      height: 0;
+      transform: translateY(-2rem);
+    }
+    100% {
+      opacity: 1;
+      height: 300px;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes fadeOut {
+    0% {
+      opacity: 1;
+      height: 300px;
+      transform: translateY(0);
+    }
+    100% {
+      opacity: 0;
+      height: 0;
+      transform: translateY(-2rem);
+    }
+  }
+  
+.menu {
+    list-style-type: none;
+    right: 5%;
+    top: 100%; 
+    width: 90%;
+    border: 1px solid #d0d0d0;
+    position: absolute;
+} 
+
+.menu.open{
+    animation: fadeIn 0.5s ease-in;
+    z-index: 1000;
+    background: white;
+}
+
+.menu.close{
+    animation: fadeOut 0.5s ease-out;
+    z-index: 1000;
+    background: white;
+
+}
+
+.menu li {
+    padding: 10px 5%;
+    border-bottom: 1px solid rgba(0,0,0,.03);
+    color: #666;
+}
+
+.shipment{
+    background-repeat: no-repeat;
+    padding-inline-end: 25px;
+    background-size: 16px;
+    cursor: pointer;
+
+    &.ar{
+        background-position: 0% 40%;
+        &::after{
+            left: -10px;
+        }
+    }
+
+    &.en{
+        background-position: 100% 40%;
+
+        &::after{
+            right: -10px;
+        }
+    }
+
+    &:after {
+        position: absolute;
+        height: 15px;
+        width: 1px;
+        background: #dadada;
+        display: inline-block;
+        content: "";
+    }
+
+    &.open{
+            background-image: url(https://bosta.co/wp-content/uploads/2019/08/more.svg);
+    }
+
+    &.close{
+        background-image: url(https://bosta.co/wp-content/uploads/2019/08/more-svg-bottm.svg);
+    }
+    
+}
+
+.track-popup{
+    position: absolute;
+    background: #fafafa;
+    right: 11%;
+    top: 63px;
+    padding: 25px 20px;
+}
+
+.track-title{
+    font-size: 24px;
+    color: #101010;
+    font-weight: bolder;
+}
+
+.track-text{
+    font-size: 16px;
+    font-weight: 400;
+    color: #5e5e5e;
+    line-height: 20px;
+}
+
+.track-input{
+    font-size: 16px;
+    border: 1px solid #e3e7ec;
+    height: 36px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    padding: 5px 10px;
+    width: 240px;
+    color: #979797;
+}
+
+.search-btn{
+    height: 34px;
+    background: #ff0000;
+    border: none;
+    width: 34px;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.track-form{
+    display: flex;
+}
+
+time{
+    text-align: center;
+    width: unset !important;
+}
+
+.logoImg{
+    width: 75%;
+}
+
+@media (min-width: 980px){
+    .navbar{
+        padding-top: 0 !important;
+    }
+}
+
+h5{
+    font-size: 18px !important;
+    font-weight: bold !important;
+}

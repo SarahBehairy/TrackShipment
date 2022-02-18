@@ -1,0 +1,32 @@
+{
+    "home": "الرئيسية",
+    "pricing": "الأسعار",
+    "contactSales": "كلم المبيعات",
+    "trackShipment": "تتبع شحنتك",
+    "signIn": "تسجيل الدخول",
+    "trackTitle": "تتبع شحنتك",
+    "trackText": "اكتب رقم الشحنة وتابع شحنتك خطوة بخطوة",
+    "trackNum": "رقم الشحنة",
+    "lastUpdate": "اخر تحديث",
+    "merchantName" : "اسم التاجر",
+    "deliverIn": "موعد التسليم خلال",
+    "TICKET_CREATED": "تم إنشاء الشحنة",
+    "IN_TRANSIT": "في الطريق",
+    "NOT_YET_SHIPPED": "لم يتم شحنه بعد",
+    "OUT_FOR_DELIVERY": "خرج للتوصيل",
+    "WAITING_FOR_CUSTOMER_ACTION": "بانتظار العميل",
+    "PACKAGE_RECEIVED": "تم الاستلام",
+    "RECEIVED_DELIVERY_LOCATION": "استلام محل التوصيل",
+    "DELIVERED": "تم التوصيل",
+    "hub": "الفرع",
+    "date": "التاريخ",
+    "time": "الوقت",
+    "details": "التفاصيل",
+    "shipmentDetails": "تفاصيل الشحنة",
+    "DELIVERED_TO_SENDER": "تم إعادته للمرسل",
+    "deliveryAddress": "عنوان التسليم",
+    "reportTitle": "هل يوجد مشكلة في شحنتك؟!",
+    "reportBtn": "إبلاغ عن مشكلة"
+
+    
+}
