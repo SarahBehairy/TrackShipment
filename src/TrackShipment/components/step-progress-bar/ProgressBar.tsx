@@ -1,5 +1,4 @@
 import React from "react";
-import "react-step-progress-bar/styles.css";
 import { ProgressBar, Step } from "react-step-progress-bar";
 import { ShipmentDetails } from "../../../shared/models/shipment-details";
 import './ProgressBar.scss';
