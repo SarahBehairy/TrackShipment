@@ -34,7 +34,7 @@ function App() {
 
 
   return (
-    <div className={"App " + (language === 'en' ? 'ltr' : 'rtl')}>
+    <div className={"App "  + (language === 'en' ? 'ltr' : 'rtl')}>
       <NavBar language={language} changeLanguage={changeLanguage}  onTrackShipment={onTrackShipment}/>
       {
         shipmentDetails && 
