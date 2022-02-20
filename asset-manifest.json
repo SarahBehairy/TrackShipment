@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/TrackShipment/static/css/main.143f242b.css",
+    "main.js": "/TrackShipment/static/js/main.bc3636e1.js",
+    "static/js/787.c683ff3b.chunk.js": "/TrackShipment/static/js/787.c683ff3b.chunk.js",
+    "static/media/Cairo-Black.ttf": "/TrackShipment/static/media/Cairo-Black.01001b13d64e1e6842fe.ttf",
+    "static/media/Cairo-Bold.ttf": "/TrackShipment/static/media/Cairo-Bold.42ec956bf204f4c2b199.ttf",
+    "static/media/Cairo-Regular.ttf": "/TrackShipment/static/media/Cairo-Regular.64b7f6f903681ee8f2ef.ttf",
+    "static/media/help1.svg": "/TrackShipment/static/media/help1.e54ab9229f88fad372abb737320c5287.svg",
+    "index.html": "/TrackShipment/index.html",
+    "main.143f242b.css.map": "/TrackShipment/static/css/main.143f242b.css.map",
+    "main.bc3636e1.js.map": "/TrackShipment/static/js/main.bc3636e1.js.map",
+    "787.c683ff3b.chunk.js.map": "/TrackShipment/static/js/787.c683ff3b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.143f242b.css",
+    "static/js/main.bc3636e1.js"
+  ]
+}
